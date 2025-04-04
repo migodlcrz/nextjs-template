@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{ values.name }}
+  description: A Next.js project created from a Backstage template.
+  annotations:
+    github.com/project-slug: migodlcrz/${{ values.name }}
+spec:
+  type: website
+  owner: user:migodlcrz
+  lifecycle: experimental
