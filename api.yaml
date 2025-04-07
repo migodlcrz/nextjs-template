@@ -8,4 +8,4 @@ spec:
   lifecycle: experimental
   owner: user:migodlcrz
   definition:
-    $text: https://raw.githubusercontent.com/migodlcrz/nextjs-template/refs/heads/main/openapi.yaml
+    $text: https://github.com/migodlcrz/nextjs-template/blob/main/openapi.yaml
