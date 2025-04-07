@@ -1,11 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{ values.name }}
+  name: nextjs-test
   description: A Next.js project created from a Backstage template.
   annotations:
-    github.com/project-slug: migodlcrz/${{ values.name }}
+    github.com/project-slug: migodlcrz/nextjs-test
 spec:
   type: website
   owner: user:migodlcrz
   lifecycle: experimental
+  providesApis:
+    - nextjs-api
