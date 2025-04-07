@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: nextjs-api
+  description: REST API for Next.js backend routes
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: user:migodlcrz
+  definition:
+    $text: https://raw.githubusercontent.com/migodlcrz/nextjs-test/main/openapi.yaml
