@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: nextjs-test
+  name: nextjs-test-1
   description: A Next.js project created from a Backstage template.
   annotations:
     github.com/project-slug: migodlcrz/nextjs-test
